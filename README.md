@@ -1,2 +1,2 @@
-# Learning-React
-React learning journey
+# Learning React
+- This repository logs my react learning journey.
