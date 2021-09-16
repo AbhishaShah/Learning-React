@@ -1,0 +1,34 @@
+[
+    {
+    "name": "Veg Meggi Noodles",
+    "ingredients": [
+      { "name": "Meggi Noodles", "amount": 2, "measurement": "cup" },
+      { "name": "Onion", "amount": 0.5, "measurement": "cup" },
+      { "name": "Tometo", "amount": 0.5, "measurement": "cup" },
+      { "name": "Mix Vegetables", "amount": 1, "measurement": "cup" },
+      { "name": "Gingle & Garlic Paste", "amount": 1, "measurement": "tablespoon" },
+      { "name": "Garam Masala", "amount": 1, "measurement": "tablespoon" },
+      { "name": "Red Chili Powder", "amount": 1, "measurement": "tablespoon" },
+      { "name": "Butter/Oil", "amount": 1, "measurement": "tablespoon" }
+    ], "steps": [
+          "Heat butter or oil in a pan.",
+          "Add ginger-garlic paste, onion, and saute till onions are soft.",
+          "Next, add tomatoes, mix vegetables, and stir-fry in high flame till they are 90% cooked.",
+          "Then add water, maggi masala, red chili powder, garam masala powder and mix well.",       
+          "Bring water to boil, and add maggi noodles, close lid, and cook for 2-3 minutes or until water is absorbed. Stir in between.",
+          "Switch off the flame,g arnish with chopped coriander leaves and serve maggi noodles recipe hot."
+    ] },
+      {
+        "name": "Cheesecake",
+        "ingredients": [
+          { "name": "Cream Cheese", "amount": 8, "measurement": "oz" },
+          { "name": "Sugar", "amount": 0.5, "measurement": "cup" },
+          { "name": "Vanilla Essence", "amount": 0.5, "measurement": "teaspoon" },
+          { "name": "Eggs", "amount": 2, "measurement": "" }
+    ], "steps": [
+          "Heat oven to 325°F.",
+          "Beat cream cheese, sugar and vanilla with mixer until blended. Add eggs; beat just until blended.",
+          "Pour into crust.",
+          "Bake 40 min. or until center is almost set. Cool. Refrigerate 3 hours."
+    ] }
+    ]
