@@ -13,4 +13,5 @@
     - Ex: `style= {{background:"red"}}`
     
 ## Star Rating App
- ![Star Rating App](./src/image/star-rating.png)
+ You can see the project [here](https://codesandbox.io/s/star-rating-app-o0047?file=/src/App.js)
+   ![Star Rating App](./src/image/star-rating.png)
