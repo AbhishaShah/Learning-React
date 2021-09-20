@@ -17,6 +17,11 @@ function App() {
               setColors(newColors);
             }
           }
+            onRateColor={ (id,rating) => {
+              const newColors = colors.map(color => color.id === id ? {...color, rating} : color);
+              setColors(newColors);
+              }
+            }
         />
       </section>
     </div>

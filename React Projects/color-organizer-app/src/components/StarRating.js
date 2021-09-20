@@ -19,6 +19,7 @@ export default function StarRating({totalStars = 5, selectedStars = 0 , onRate =
             <Star 
                 key={i} 
                 selected={selectedStars > i} 
+                onSelect={() => onRate(i+1)}
             /> ))   
          }
          <p style={{textAlign:"center"}}> <b> <span style={{color:"orange"}}>{selectedStars}</span> out of {totalStars} stars </b> </p>
