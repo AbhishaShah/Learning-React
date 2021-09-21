@@ -19,6 +19,7 @@ code {
 .color-container{
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding-top: 100px;
 }
 .color-Box {
@@ -36,4 +37,19 @@ code {
   height: 50px;
   margin: 0 auto;
   cursor: pointer;
+}
+.addcolorform{
+  display: flex;
+  justify-content: center;
+}
+input[type="text"] {
+  height: 40px;
+  margin: 10px;
+}
+input[type="color"] {
+  height: 45px;
+  margin: 10px;
+}
+button {
+  width: 100px;
 }
