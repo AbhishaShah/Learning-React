@@ -1,6 +1,6 @@
-import {FaRegClock,FaTrashAlt} from "react-icons/fa";
+import {FaRegClock} from "react-icons/fa";
 
-const BlogList = ({blogs, handleRemove}) => {
+const BlogList = ({blogs}) => {
         
     return (
         <div className="blog-list">

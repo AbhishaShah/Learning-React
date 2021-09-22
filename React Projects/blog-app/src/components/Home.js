@@ -1,18 +1,23 @@
-import { useState } from "react";
-import blogData from "../data/db.json";
+import { useEffect, useState } from "react";
 import BlogList from "./BlogList";
 
 const Home = () => {
-    const [blogs, setBlogs] = useState(blogData); // handle all blogdata using state
+    const [blogs, setBlogs] = useState(null); // handle all blogdata using state
 
-    const handleRemove = (id) => {
-        const newBlogs = blogs.filter(blog => blog.id !== id);
-        setBlogs(newBlogs);
-    }
+// call rest api only once
+useEffect(()=>{
+       fetch('http://localhost:3000/blogs')
+        .then(res => {
+            return(res.json());
+        })
+        .then(data => {
+            setBlogs(data);
+        })
+    },[])
 
     return(
         <div className="home">
-            <BlogList  blogs={blogs} handleRemove={handleRemove} />
+            {blogs && <BlogList  blogs={blogs} />}
         </div>
     );
 }
