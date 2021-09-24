@@ -1,5 +1,5 @@
 # **useEffect()**
-- **Usage:** When component needs to perform some actions/output something after render. (for managing side-effects).
+- **Usage:** When component needs to perform some actions/output something after every render. (for managing side-effects).
 - Examples of side-effects are fetch requests, manipulating DOM directly, use of timer functions like setTimeout().
 - useEffect() hook accepts 2 arguments:
     
