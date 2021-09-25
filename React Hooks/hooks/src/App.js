@@ -5,12 +5,14 @@
 // import BasicUseEffectHook from "./useEffect/BasicUseEffectHook";
 // import UseEffectHookRenderOnce from "./useEffect/UseEffectHookRenderOnce";
 // import UseEffectHookWithCleanup from "./useEffect/UseEffectHookWithCleanup";
- import UseEffectWithFetchData from "./useEffect/UseEffectWithFetchData";
+// import UseEffectWithFetchData from "./useEffect/UseEffectWithFetchData";
+import UseContextHookProvider from "./useContext/UseContextHookProvider";
+
 
 function App() {
   return (
     <div>
-     <UseEffectWithFetchData />
+     <UseContextHookProvider />
     </div>
   );
 }
