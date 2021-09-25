@@ -1,4 +1,4 @@
-/* Simple useState hook example with creating and incrementing state type counter variable. */
+/* Get data using useContxt hook */
 
 import React, { useContext } from "react";
 import { UserContext, EmailContext } from "./UseContextHookProvider";

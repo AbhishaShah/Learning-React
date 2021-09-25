@@ -1,4 +1,4 @@
-/* Simple useState hook example with creating and incrementing state type counter variable. */
+/* Create context and pass data using value in Provider */
 import React from "react";
 import UseContextHookConsumer from "./UseContextHookConsumer";
 

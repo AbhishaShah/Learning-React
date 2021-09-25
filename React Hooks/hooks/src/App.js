@@ -6,13 +6,18 @@
 // import UseEffectHookRenderOnce from "./useEffect/UseEffectHookRenderOnce";
 // import UseEffectHookWithCleanup from "./useEffect/UseEffectHookWithCleanup";
 // import UseEffectWithFetchData from "./useEffect/UseEffectWithFetchData";
-import UseContextHookProvider from "./useContext/UseContextHookProvider";
+// import UseContextHookProvider from "./useContext/UseContextHookProvider";
+// import BasicUseReducerHook from "./useReducer/BasicUseReducerHook";
+// import UseReducerHookWithObjects from "./useReducer/UseReducerHookWithObjects";
+// import UseReducerHookWithUseContextProvider from "./useReducer/UseReducerHookWithUseContextProvider";
+ import UseReducerHookWithFetchData from "./useReducer/UseReducerHookWithFetchData";
+
 
 
 function App() {
   return (
-    <div>
-     <UseContextHookProvider />
+    <div style={{textAlign:"center"}}>
+     <UseReducerHookWithFetchData />
     </div>
   );
 }
