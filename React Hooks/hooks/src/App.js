@@ -10,14 +10,15 @@
 // import BasicUseReducerHook from "./useReducer/BasicUseReducerHook";
 // import UseReducerHookWithObjects from "./useReducer/UseReducerHookWithObjects";
 // import UseReducerHookWithUseContextProvider from "./useReducer/UseReducerHookWithUseContextProvider";
- import UseReducerHookWithFetchData from "./useReducer/UseReducerHookWithFetchData";
+// import UseReducerHookWithFetchData from "./useReducer/UseReducerHookWithFetchData";
+ import ParentComponent from "./useCallback/ParentComponent";
 
 
 
 function App() {
   return (
     <div style={{textAlign:"center"}}>
-     <UseReducerHookWithFetchData />
+     <ParentComponent />
     </div>
   );
 }
