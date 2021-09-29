@@ -10,7 +10,7 @@ const UseContextHookProvider = () => {
     const userEmail = "test59@gmail.com"
     return (
         <div>
-            <UserContext.Provider value={userName}>
+            <UserContext.Provider value={userName}> 
               <EmailContext.Provider value={userEmail}>
                  <UseContextHookConsumer />
               </EmailContext.Provider>
