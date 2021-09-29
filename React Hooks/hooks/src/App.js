@@ -12,14 +12,16 @@
 // import UseReducerHookWithUseContextProvider from "./useReducer/UseReducerHookWithUseContextProvider";
 // import UseReducerHookWithFetchData from "./useReducer/UseReducerHookWithFetchData";
 // import ParentComponent from "./useCallback/ParentComponent";
-import BasicUseMemoHook from "./useMemo/BasicUseMemoHook";
+// import BasicUseMemoHook from "./useMemo/BasicUseMemoHook";
+// import BasicUseRefHook from "./useRef/BasicUseRefHook";
+import UseRefHookWithTimer from "./useRef/UseRefHookWithTimer";
 
 
 
 function App() {
   return (
     <div style={{textAlign:"center"}}>
-     <BasicUseMemoHook />
+     <UseRefHookWithTimer />
     </div>
   );
 }
