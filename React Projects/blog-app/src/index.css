@@ -13,20 +13,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 2px; 
 }
-
+a{
+  text-decoration: none; 
+  color: var(--font-color); 
+}
 .App-header {
   display: flex;
   color:var(--main-color);
   border-bottom: 1px solid rgba(14, 12, 12, 0.164);
 }
-a { 
-  color: var(--font-color); 
+.navbar a { 
   font-weight: 500; 
-  text-decoration: none; 
   padding: 20px;
   display: inline-block; 
   width: 100%; 
-  text-align: center; 
 }  
 a:hover { 
   background: var(--main-color);
@@ -34,9 +34,6 @@ a:hover {
 .navbar ul {
   list-style: none;
   display: flex;
-}
-.navbar li {
-  flex: 3; 
 }
 .blog-preview {
   border-bottom:1px solid rgba(14, 12, 12, 0.164);
@@ -69,4 +66,35 @@ a:hover {
   display: flex;
   margin-left: auto;
   padding: 3px;
+}
+.addBlogForm {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+.addBlogForm label {
+  text-align: left;
+  display: block;
+}
+.addBlogForm h2 {
+  font-size: 20px;
+  color: var(--main-color);
+  margin-bottom: 30px;
+}
+.addBlogForm input, .addBlogForm textarea, .addBlogForm select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.addBlogForm button {
+  background: var(--main-color);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
 }
