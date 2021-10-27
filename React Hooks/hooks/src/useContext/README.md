@@ -20,6 +20,7 @@
     3) Consuming the context.
         ```Javascript
          import { useContext } from 'react';
+         import { Context } from "./UseContextHookProvider";
             function MyComponent() {
                 const value = useContext(Context);
                 return <span>{value}</span>;
