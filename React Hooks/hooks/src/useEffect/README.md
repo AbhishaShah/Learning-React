@@ -48,3 +48,14 @@
         alert(`Given Name: ${name}`);  // Runs ONCE after initial rendering  and after every rendering ONLY IF `prop` or `state` changes
     },[inputname]);
     ```    
+    
+- Clean up function pass as return value: Used for removing intervals,subscription,event handlers. (Component unmounting code-It will mimic componentwillUnMount() method)
+
+```Javascript
+useEffect(() => {
+ document.title = `You clicked ${count} times`;
+  return ()=>{
+	window.removweListener...
+} 
+},[]);
+
